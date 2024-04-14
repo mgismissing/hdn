@@ -1,7 +1,21 @@
+div.align-left {
+    text-align: left;
+}
+
+div.small {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+div.font-size-p {
+    font-size: 18px;
+}
+
+
 body {
     background-color: #222;
     color: #fff;
-    font-family: Arial, sans-serif;
+    font-family: monospace;
 }
 
 header {
@@ -12,6 +26,7 @@ header {
 h1 {
     margin: 0;
     text-align: center;
+    font-size: 30px;
 }
 
 h1 a {
@@ -21,10 +36,13 @@ h1 a {
 
 h2 {
     text-align: center;
+    font-size: 25px;
 }
 
 p {
     text-align: center;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 p a {
@@ -37,6 +55,7 @@ main {
     margin-right: 20px;
     background-color: #282828;
     border-radius: 20px;
+    margin-bottom: 40px;
 }
 
 .product-list, .order-form {
@@ -55,31 +74,47 @@ footer {
 
 .queue-full {
     color: #f88;
-    font-weight: bold;
+    font-weight: bolder;
     text-align: center;
+}
+
+.queue-full * {
+    color: #f88;
 }
 
 .queue-avlb {
     color: #8f8;
-    font-weight: bold;
+    font-weight: bolder;
     text-align: center;
+}
+
+.queue-avlb * {
+    color: #8f8;
 }
 
 .queue-tbfl {
     color: #ff8;
-    font-weight: bold;
+    font-weight: bolder;
     text-align: center;
+}
+
+.queue-tbfl * {
+    color: #ff8;
 }
 
 .queue-prio {
     color: #f8f;
-    font-weight: bold;
+    font-weight: bolder;
     text-align: center;
+}
+
+.queue-prio * {
+    color: #f8f;
 }
 
 .queue-err0 {
     color: #f88;
-    font-weight: bold;
+    font-weight: bolder;
     text-align: center;
 }
 
@@ -122,44 +157,44 @@ color.money {
 }
 
 qstatus.normal.fixed {
-    font-weight: bold;
+    font-weight: bolder;
     background: #fff;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
 
 qstatus.priority.fixed {
-    font-weight: bold;
+    font-weight: bolder;
     background: linear-gradient(to bottom, #faf, #f5f, #f5f);
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
 
 qstatus.normal.slippery {
-    font-weight: bold;
+    font-weight: bolder;
     background: #aaa;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
 
 qstatus.priority.slippery {
-    font-weight: bold;
+    font-weight: bolder;
     background: #959;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
 
 taskstatus.done {
-    font-weight: bold;
+    font-weight: bolder;
     color: #8f8;
 }
 
 taskstatus.doing {
-    font-weight: bold;
+    font-weight: bolder;
     color: #ff8;
 }
 
 taskstatus.todo {
-    font-weight: bold;
+    font-weight: bolder;
     color: #f88;
 }

@@ -1,7 +1,5 @@
-NUOVO ORDINE
-Aggiorna lines di /qupdate.js
-Aggiorna /peek/queue/index.html
-Aggiungi ordine su monday.com
-
-NUOVA SETTIMANA
-Aggiorna tavole disponibili
+NUOVO ATTACCO
+Aggiorna lista attacchi di forms.empties.it/f/2349/index.html
+Aggiorna lista attacchi di forms.empties.it/f/3493/index.html
+Aggiorna lista attacchi di hdn.empties.it/index.html
+Aggiorna prima parte di hdn.empties.it/qupdate.js

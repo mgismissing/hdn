@@ -51,8 +51,8 @@ const lines = [
 ];
 
 
-var queueinfo = 'Caricamento dello stato della coda... <a href="/peek/queue">[ Vedi la coda ]</a>';
-queueinfo = 'Coda: ' + lines[5] + '/' + lines[9] + ' <color class="priority">[ ' + lines[7] + '/' + lines[9] + ' con <a href="/priority">priorità</a> ]</color> <a href="/peek/queue">[ Vedi la coda ]</a>';
+var queueinfo = 'Caricamento dello stato della coda...<a href="/peek/queue" hidden> [ Vedi la coda ]</a>';
+queueinfo = 'Coda: ' + lines[5] + '/' + lines[9] + ' <color class="priority">[ ' + lines[7] + '/' + lines[9] + ' con <a href="/priority">priorità</a> ]</color> <a href="/peek/queue" hidden>[ Vedi la coda ]</a>';
 
 document.getElementById('queueinfo').innerHTML = queueinfo;
 try {
