@@ -1,0 +1,165 @@
+body {
+    background-color: #222;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+}
+
+h1 a {
+    color: #fff;
+    text-decoration-color: #fff;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+p a {
+    color: #acf;
+}
+
+main {
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #282828;
+    border-radius: 20px;
+}
+
+.product-list, .order-form {
+    margin-bottom: 30px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    left: 0px;
+}
+
+.queue-full {
+    color: #f88;
+    font-weight: bold;
+    text-align: center;
+}
+
+.queue-avlb {
+    color: #8f8;
+    font-weight: bold;
+    text-align: center;
+}
+
+.queue-tbfl {
+    color: #ff8;
+    font-weight: bold;
+    text-align: center;
+}
+
+.queue-prio {
+    color: #f8f;
+    font-weight: bold;
+    text-align: center;
+}
+
+.queue-err0 {
+    color: #f88;
+    font-weight: bold;
+    text-align: center;
+}
+
+color.priority {
+    background: linear-gradient(to bottom, #faf, #f5f);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+color.priority a {
+    background: linear-gradient(to bottom, #faf, #f5f);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-decoration: underline;
+    text-decoration-color: #f5f;
+}
+
+color.red {
+    color: #faa;
+}
+
+color.buy a {
+    background: linear-gradient(to bottom, #292, #8f8);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-decoration: underline;
+    text-decoration-color:  #8f8;
+}
+
+color.buy {
+    background: linear-gradient(to bottom, #292, #8f8);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+color.money {
+    background: linear-gradient(to bottom, #bb0, #ffa);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+qstatus.normal.fixed {
+    font-weight: bold;
+    background: #fff;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+qstatus.priority.fixed {
+    font-weight: bold;
+    background: linear-gradient(to bottom, #faf, #f5f, #f5f);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+qstatus.normal.slippery {
+    font-weight: bold;
+    background: #aaa;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+qstatus.priority.slippery {
+    font-weight: bold;
+    background: #959;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+taskstatus.done {
+    font-weight: bold;
+    color: #8f8;
+}
+
+taskstatus.doing {
+    font-weight: bold;
+    color: #ff8;
+}
+
+taskstatus.todo {
+    font-weight: bold;
+    color: #f88;
+}
